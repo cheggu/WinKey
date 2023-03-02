@@ -1,0 +1,3 @@
+C:/Users/benja/Desktop/WinKey/make/CMakeFiles/winkey.dir
+C:/Users/benja/Desktop/WinKey/make/CMakeFiles/ALL_BUILD.dir
+C:/Users/benja/Desktop/WinKey/make/CMakeFiles/ZERO_CHECK.dir

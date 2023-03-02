@@ -1,0 +1,10 @@
+^C:\USERS\BENJA\DESKTOP\WINKEY\MAKE\CMAKEFILES\722830E1DBD58B16E48AE745B2693253\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/benja/Desktop/WinKey -BC:/Users/benja/Desktop/WinKey/make --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/benja/Desktop/WinKey/make/WinKey.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
